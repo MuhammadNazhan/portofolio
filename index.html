@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- back to top -->
+    <div class="back-to-top">
+      <a class="button" href="#hero"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+    <!-- hero -->
+    <div class="hero" id="hero">
+      <div class="image-content">
+        <img src="assets/personal.jpg" alt="" />
+      </div>
+      <div class="content">
+        <div>
+          <h1 class="fw-bold">Hello World!</h1>
+          <h2 class="fw-bolder">
+            Nama saya
+            <a href="https://github/zdnemz" class="nama-section">Zidane</a>
+            <span class="wave">👋</span>
+          </h2>
+          <p class="text1 mt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            molestias sequi veritatis ipsam exercitationem eos asperiores, quod
+            officia unde fugit.
+          </p>
+        </div>
+        <button>
+          <a href="#jelajahi" class="button">Jelajahi</a>
+        </button>
+      </div>
+      <div>
+        <h3>Progress</h3>
+        <p class="text1 text-fade">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
+          excepturi dolor praesentium perferendis repellat, ipsum consectetur
+          earum ducimus esse doloremque.
+        </p>
+      </div>
+      <div id="progress"></div>
+      <h1 id="text"></h1>
+    </div>
+
+    <!-- card -->
+    <div class="container mt-5 mb-3" id="jelajahi">
+      <h1 class="fw-bold mb-3">My Projects</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card shadow-lg p-3 mb-2">
+            <h3 class="heading mb-2">Project 1</h3>
+            <p class="text text-semifade">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore quos aliquam voluptate pariatur expedita obcaecati
+              aspernatur error laborum fugiat nam architecto reprehenderit porro
+              et hic nulla totam blanditiis, itaque soluta!
+            </p>
+            <button class="button">Jelajahi</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-lg p-3 mb-2">
+            <h3 class="heading mb-2">Project 2</h3>
+            <p class="text text-semifade">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore quos aliquam voluptate pariatur expedita obcaecati
+              aspernatur error laborum fugiat nam architecto reprehenderit porro
+              et hic nulla totam blanditiis, itaque soluta!
+            </p>
+            <button class="button">Jelajahi</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-lg p-3 mb-2">
+            <h3 class="heading mb-2">Project 3</h3>
+            <p class="text text-semifade">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore quos aliquam voluptate pariatur expedita obcaecati
+              aspernatur error laborum fugiat nam architecto reprehenderit porro
+              et hic nulla totam blanditiis, itaque soluta!
+            </p>
+            <button class="button">Jelajahi</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact us -->
+    <div class="container contact-form pt-5">
+      <h3 class="text-center mb-3">Drop Us a Message</h3>
+      <form method="post">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                name="phone"
+                class="form-control"
+                placeholder="Your Phone Number"
+                required
+              />
+            </div>
+            <div class="d-grid">
+              <input
+                type="submit"
+                name="btnSubmit"
+                class="button button-center mb-3"
+                value="Send Message"
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="mb-3">
+              <textarea
+                name="message"
+                class="form-control"
+                placeholder="Your Message"
+                style="height: 150px"
+                required
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- footer -->
+    <div class="footer text-center mt-5">
+      <p>© 2023 Zidane. All rights reserved.</p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
